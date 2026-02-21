@@ -1,0 +1,52 @@
+.app {
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  margin: 0 0 12px 0;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.addRow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.title {
+  min-width: 160px; 
+}
+
+.textInput {
+  width: 220px;
+  padding: 4px 6px;
+}
+
+.textInput.inline {
+  width: 220px;
+}
+
+.btn {
+  padding: 4px 10px;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
